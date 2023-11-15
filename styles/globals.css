@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+  }
+  
+  :root {
+    --color-bg:#f8f8f8;
+    --second-color: #ffff;
+    --text-color: #213F7D;
+    --grey-text: gray;
+    --container-lg: 90%;
+    --container-md: 75%;
+    --container-sm: 55%;
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+      'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+      'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  
+  }
+  
+  body{
+    background: var(--color-bg);
+    color: black;
+    width: var(--container-lg);
+    width: 0 auto;
+  }
+  
+  .container{
+    width: var(--container-lg);
+    margin: 0 auto;
+  }

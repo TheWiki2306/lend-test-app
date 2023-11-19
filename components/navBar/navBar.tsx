@@ -14,11 +14,15 @@ const NavBar = () => {
             <div className={styles.navContainer}>
                 <Link href="/"><Logo/></Link>
                 <input type="search" name="search for anything" id="" />
-                <Docs className={styles.docs}/>
-                <Notification/>
-                <Avatar/>
-                <small >Olatunde</small>
-                <DropDown className={styles.drop}/>
+                <div className={styles.nav}>
+                    <Docs className={styles.docs}/>
+                    <Notification/>
+                    <div className={styles.innerNav}>
+                        <Avatar className={styles.avatar}/>
+                        <small >Olatunde</small>
+                        <DropDown className={styles.drop}/>
+                    </div>
+                </div>
             </div>
         </div>
     );

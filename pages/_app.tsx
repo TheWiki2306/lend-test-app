@@ -10,9 +10,7 @@ interface Props {
 export default function App({ Component, pageProps }: Props) {
   return ( 
   <>
-  <Layout >
     <Component {...pageProps} />
-    </Layout>
     </>
   )
 }

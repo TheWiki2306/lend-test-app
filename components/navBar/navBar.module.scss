@@ -1,13 +1,30 @@
 .navContainer{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.nav{
+  display: flex;
   gap: 2rem;
-  margin-top: 1rem;
+  align-items: center;
 }
 
 .docs{
     margin-left: 10rem;
 }
 
+.innerNav{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.avatar{
+
+}
+
 .drop{
-    margin-left: 22rem;
+
 }

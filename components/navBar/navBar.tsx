@@ -4,6 +4,7 @@ import Notification  from "../../assets/icons/notif.svg";
 import Docs from "../../assets/icons/docs.svg"; 
 import Avatar from "../../assets/icons/avatar.svg";
 import DropDown from "../../assets/icons/dropDown.svg";
+import Search from "../../assets/icons/search-svgrepo-com.svg";
 import styles from "./navBar.module.scss"
 
 
@@ -13,16 +14,19 @@ const NavBar = () => {
         <div className="container">
             <div className={styles.navContainer}>
                 <Link href="/"><Logo/></Link>
-                <input type="search" name="search for anything" id="" />
-                <div className={styles.nav}>
-                    <Docs className={styles.docs}/>
-                    <Notification/>
-                    <div className={styles.innerNav}>
-                        <Avatar className={styles.avatar}/>
-                        <small >Olatunde</small>
-                        <DropDown className={styles.drop}/>
-                    </div>
+                <div className={styles.search}>
+                    <input type="search" placeholder="search for anything" id="" className={styles.input} />
+                    <Search className={styles.buttonSearch}/>
                 </div>
+                    <div className={styles.nav}>
+                        <Docs className={styles.docs}/>
+                        <Notification/>
+                        <div className={styles.innerNav}>
+                            <Avatar/>
+                            <small className={styles.small}>Olatunde</small>
+                            <DropDown/>
+                        </div>
+                    </div>
             </div>
         </div>
     );

@@ -7,8 +7,8 @@
   }
   
   :root {
-    --color-bg:#f8f8f8;
-    --second-color: #ffff;
+    --second-color-bg:#f8f8f8;
+    --color-bg: #ffff;
     --text-color: #213F7D;
     --grey-text: gray;
     --container-lg: 95%;

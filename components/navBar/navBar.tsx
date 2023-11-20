@@ -11,7 +11,7 @@ import styles from "./navBar.module.scss"
 const NavBar = () => {
 
     return ( 
-        <div className="container">
+        <div className="container navbar">
             <div className={styles.navContainer}>
                 <Link href="/"><Logo/></Link>
                 <div className={styles.search}>

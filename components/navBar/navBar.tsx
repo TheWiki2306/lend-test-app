@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Logo from "../../assets/icons/logo.svg";
+// import Link from "next/link";
+// import Logo from "../../assets/icons/logo.svg";
 import Notification  from "../../assets/icons/notif.svg";
 import Docs from "../../assets/icons/docs.svg"; 
 import Avatar from "../../assets/icons/avatar.svg";
@@ -13,7 +13,6 @@ const NavBar = () => {
     return ( 
         <div className="container navbar">
             <div className={styles.navContainer}>
-                <Link href="/"><Logo/></Link>
                 <div className={styles.search}>
                     <input type="search" placeholder="search for anything" id="" className={styles.input} />
                     <Search className={styles.buttonSearch}/>

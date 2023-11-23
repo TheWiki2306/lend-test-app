@@ -6,7 +6,7 @@ import styles from "./sideBar.module.scss"
 const SideBar = () => {
   return (
     <div id='sidebar'>
-        <Link href="/"><Logo/></Link>
+        <Link href="/" className={styles.side}><Logo/></Link>
     </div>
   )
 }
